@@ -1,20 +1,31 @@
 .container{
-    background-image:url("library\ image\ 2.jpg");
+    background-image:url("library.jpg");
     background-size: cover;
     background-position: center;
-    height:500px;
+    height:100vh;
     background-size: 100%;
     background-attachment: scroll;
     margin: 0;
 }
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+}
+
 .container-2{
-    background-image: url("library\ image\ 2.jpg");
+    background-image: url("library.jpg");
    display: flex;
     justify-content: center;   /* Horizontal */
     align-items: center;       /* Vertical */
     height: 100vh; 
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     gap: 400px;
+}
+.button{
+    margin-right;
+
 }
 
 .box{
